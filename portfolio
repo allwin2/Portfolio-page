@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PORTFOLIO</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        padding: 0;
+        background-color: black;
+    }
+    header{
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    nav{
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        background-color:grey;
+    }
+    nav a{
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+    }
+    .section {
+        margin: 20px;
+        background-color: white;
+        font-weight: bold;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .section h2 {
+        margin-top: 0;
+    }
+    .projects{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .project{
+        flex-basis: 30%;
+        background-color: beige;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    footer{
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Allwin.M</h1>
+        <p>
+            Web developer
+            Content writer
+        </p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact"></a>
+
+    </nav>
+    <div class="container">
+        <div id="About"class="section">
+            <h2>About me</h2>
+            <p>Hey this is Allwin,I am here to announce that i am freelancer working on web development(Both front end and backend),Content writer for many creaters and influencers in social media such as instagram,X and many more..</p>
+        </div>
+        <div id="Projects"class="section">
+            <h2>projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Hotel booking</h3>
+                    <p>I had done a project in web development for a Hotel residence to book tickets  </p>
+                </div>
+                <div class="project">
+                    <h3>Content writing </h3>
+                    <p>I had done a content writing for a gym influencer named siraj</p>
+                </div>
+                <div class="project">
+                    <h3>Gym management</h3>
+                    <p>We and our team work for the gym management project with backend</p>
+                </div>
+                
+            </div>
+
+            <div id="contact" class="section">
+                <h2>Contact</h2>
+                <p>
+                    <a href="tel:9003947603">Contact</a>
+                </p>
+                <p>
+                    <a href="mailto:allwinm@karunya.edu.in">Gmail</a>
+                </p>
+            </div>
+            
+            <footer>
+                <p>&copy;2024 Allwin.All rights reserved</p>
+            </footer>
+
+
+
+</body>
+</html>
